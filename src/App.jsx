@@ -16,7 +16,7 @@ function App() {
       <MyContextProvider>
       <NavBar/>
       <Routes>
-        <Route path="/home" element={<Home/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/favoritos" element={<Favoritos/>}></Route>
         <Route path="*" element={<NotFound/>}></Route>
 

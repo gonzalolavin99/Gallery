@@ -11,7 +11,7 @@ const NavBar = () => {
         <Container>
         <div >
                 <Link
-                  to="/home"
+                  to="/"
                   className="text-white ms-3 text-decoration-none"
                 >
                   Home
