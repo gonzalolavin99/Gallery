@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
     <div>
       {" "}
-      <Navbar bg="success" variant="success" data-bs-theme="dark">
+      <Navbar bg="success" variant="success" data-bs-theme="dark" className="navbar">
         <Container>
         <div >
                 <Link
